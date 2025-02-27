@@ -8,10 +8,10 @@ type Props = {
 export default function HomeScreen({ navigation }: Props) {
   return (
     <View style={styles.container}>
-      <Text>Welcome to Home Screen! 🏠</Text>
+      <Text>Welcome to Color Guessing Game!</Text>
       <Button
-        title="Go to Details"
-        onPress={() => navigation.navigate("Details")}
+        title="Go to the game"
+        onPress={() => navigation.navigate("Home")}
       />
     </View>
   );
